@@ -26,6 +26,11 @@ public class PlayerController : MonoBehaviour
         {
             _speed -= _speedChangeValue;
         }
+
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            _animator.SetTrigger(GlobalConstants.Attack);
+        }
         
         _animator.SetFloat(GlobalConstants.Speed, _speed);
     }
