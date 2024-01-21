@@ -175,6 +175,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ninja Idle
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 931e77a47f931864da4bf3ec82dff95e, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 346467cb47204c04d910f30ba3171aa4, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
